@@ -1,0 +1,25 @@
+public class Main{
+
+public static void main(String[] args) {
+	
+	boolean myBoolean = true;
+	char myChar = '@';
+	String myString = "Bro";
+	int myInt =50;
+	double myDouble = 1000;
+	//coversion character
+	System.out.printf("%b\n",myBoolean);
+	System.out.printf("%c\n",myChar);
+	System.out.printf("%s\n",myString);
+	System.out.printf("%d\n",myInt);
+	System.out.printf("%f\n",myDouble);
+	//width
+	System.out.printf("Hello %10s\n",myString);
+//precision
+	System.out.printf("u hv this much money %.1f",myDouble);
+	//flags
+	System.out.printf("u hv this much money %,f",myDouble);
+	}
+
+
+}
